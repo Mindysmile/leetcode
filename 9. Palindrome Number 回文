@@ -1,1 +1,6 @@
-
+9.判断是否是回文 ，以布尔值返回
+var isPalindrome = function(x) {
+    if(x.toString()==x.toString().split('').reverse().join(''))
+        return true;
+    else return false;
+};
